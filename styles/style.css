@@ -44,6 +44,7 @@ main {
 }
 /* Previous failure */
 
+
 .section1{
     display: flex;
 
@@ -121,11 +122,12 @@ font-weight: 400;
 footer{
     background-color: #151414;
     width: vw;
-    height: 550px;
+    height: 20%;
       }
 
 .footer-content {
-    padding: 130px 130px;
+   
+     padding: 140px 130px 10px 130px ;
     display: flex;
 }
     
