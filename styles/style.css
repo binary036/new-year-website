@@ -5,7 +5,177 @@
 }
 .banner{
     background-image: url(../images/banner/banner1.png);
-    height: 100vh;
+    height: 808px;
     width: 100%;
     background-size: cover;
+    
+}
+.banner-content{
+    width: 85%;
+    padding: 330px 0px;
+   text-align: right;    
+}
+.banner h1{
+    color: #151414
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0px 0px 24px 800px ;
+}
+.banner p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    /* margin: 0px 0px 850px 30px */
+    padding: 0px 0px 30px 870px;
+}
+.banner button{
+    background-color: #F15B22;
+    color: #FFF;
+    padding: 20px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid #F15B22;
+}
+
+/* Main section design */
+
+main {
+    margin: 140px 250px 140px 230px;
+}
+/* Previous failure */
+
+.section1{
+    display: flex;
+
+}
+.fail{
+    margin: 230px 50px 87px 100px;
+}
+.fail h2{
+    
+    color: #151414;
+    padding: 24px 100px 24px 0 ; 
+    font-size: 40px;
+    font-weight: 700;
+}
+.fail p{
+padding-bottom: 16px;
+color: #444343;
+font-size: 16px;
+font-weight: 400;
+}
+
+/* Icon design section */
+
+.section2{
+    margin: 130px 0px;
+}
+.section2 h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.icon-design {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Image gradient design */
+
+.section3{
+
+ margin-bottom: 130px;
+    
+}
+.bg-img{
+    position: absolute;
+}
+.gradient{
+    position: absolute;
+}
+
+.section3 div{
+    position: relative;
+   padding: 80px 60px;
+ }
+.section3 div h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 580px 24px 0;
+}
+.section3 div button{
+    width: 160px;
+    height: 64px;
+    background-color: #FFF;
+    color: #F15B22;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Footer Design */
+footer{
+    background-color: #151414;
+    width: vw;
+    height: 550px;
+      }
+
+.footer-content {
+    padding: 130px 130px;
+    display: flex;
+}
+    
+.footer-content-div1{
+padding-right: 330px;
+} 
+.footer-content-div1 h2{
+ color: #F8F8F8;
+ font-size: 45px;
+ font-weight: 700;
+ padding-bottom: 16px;
+}
+.footer-content-div1 p{
+    color: #FFF;
+    padding-bottom: 24px;
+    /* padding-right: 330px; */
+}
+.footer-icon{
+   padding-right: 15px;
+}
+
+.footer-content-div2{
+    padding: 0px 200px 230px 0px;
+}
+.footer-content-div2 h4{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+input{
+    width: 205px;
+    height: 15px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background-color: #151414;
+   padding: 20px 30px;
+}
+input::placeholder{
+    color: #FFF;
+}
+form button{
+
+    width: 140px;
+    height: 50px;
+    background-color: #FFF;
+    color: #F15B22;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
 }
